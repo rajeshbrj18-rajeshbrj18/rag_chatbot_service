@@ -7,10 +7,14 @@ requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.104.0",
     "google-genai>=0.1.0",
+    "openai",
+    "pandas",
+    "psycopg2-binary",
     "pydantic>=2.0.0",
     "pydantic-settings>=2.0.0",
     "python-dotenv>=1.0.0",
     "rich>=13.0.0",
     "supabase>=2.0.0",
+    "tqdm",
     "uvicorn[standard]>=0.24.0",
 ]
